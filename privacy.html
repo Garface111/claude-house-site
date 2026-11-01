@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude House privacy policy</title>
+<meta name="description" content="What Claude House reads from Google, how it uses it, and how to revoke access.">
+<style>
+  :root { --bg: #f6f1e7; --ink: #1c1a17; --muted: #5d574d; --line: #d9d0bf; --link: #7a4a12; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1a17; --ink: #efe8dc; --muted: #b5ac9c; --line: #3a352d; --link: #e3a65a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-size: 2rem; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  .lede { color: var(--muted); margin: 0 0 1.6rem; }
+  p, li { margin: 0 0 .8rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); }
+  footer { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="lede">Claude House &middot; last updated November 1, 2026</p>
+
+  <p>Claude House is a private home assistant used by one household on its own computer. It has no other users. This policy covers the information it receives from Google.</p>
+
+  <h2>What it reads from Google</h2>
+  <p>With the permission of the Google account that owns the household's Nest thermostat, Claude House uses Google's Smart Device Management API to read that thermostat's current temperature, humidity, mode (heat, cool, both or off), set temperatures, eco setting, fan timer and whether it is heating or cooling right now, along with the names Google gives the thermostat's home and room. It reads nothing else from the Google account.</p>
+
+  <h2>How it uses it</h2>
+  <ul>
+    <li>To show the thermostat's state to the household, and to change it when someone in the home asks or when one of their own routines runs.</li>
+    <li>When someone in the home gives a spoken request, the house's current state, which includes the thermostat reading, may be sent to the AI model the house uses to understand and carry out that request (Anthropic's Claude, or OpenAI's realtime voice). It is sent only to answer that request.</li>
+    <li>It is never sold, never used for advertising, and never shared with anyone else.</li>
+  </ul>
+
+  <h2>Where it is kept</h2>
+  <p>The Google sign-in token and the thermostat readings stay on the household's own computer. The house keeps the current reading and a log of the changes it made (what changed, and when) so they can be undone. It keeps no history of readings beyond that.</p>
+
+  <h2>Stopping it</h2>
+  <p>The account owner can revoke access at any time: in the Google Account under Security &rsaquo; Third-party apps with account access (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>), or in the Nest settings under Works with Google. Once access is revoked, Claude House can no longer read or change the thermostat.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Claude House's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <footer>Questions: ford.genereaux@gmail.com &middot; <a href="./">Claude House</a></footer>
+</main>
+</body>
+</html>
